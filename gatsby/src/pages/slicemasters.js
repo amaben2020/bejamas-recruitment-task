@@ -45,22 +45,16 @@ const FeaturedDesc = styled.div`
 
 export default function SlicemastersPage({ data, pageContext }) {
 	const products = data.products.nodes;
-	console.log(products);
 
-	const { order, addToOrder } = useCartInfo({ products });
-	console.log(order);
+	const { addToOrder } = useCartInfo({ products });
 
 	const featuredProduct = data.featured.nodes;
-	console.log(featuredProduct);
 
 	const sortedProductsPrice = data.sortedProductsPrice.nodes;
-	console.log(sortedProductsPrice);
 
 	const sortedProductsByName = data.sortedProductsByName.nodes;
-	console.log(sortedProductsByName);
 
 	const recommendations = data.recommendations.nodes;
-	console.table("recommendations", recommendations);
 
 	return (
 		<>
@@ -141,7 +135,7 @@ export default function SlicemastersPage({ data, pageContext }) {
 											<div>
 												<Img
 													style={{
-														width: "7vw",
+														maxWidth: "7vw",
 														height: "27vh",
 														margin: "1rem",
 													}}
@@ -149,21 +143,28 @@ export default function SlicemastersPage({ data, pageContext }) {
 													fluid={recommendation.image.asset.fluid}
 												/>
 											</div>
+										</div>
+									))}
+									<div>
+										<h2>Details</h2>
+										{recommendations.map((recommendation, index) => (
 											<div>
 												{recommendation.size && (
 													<p> Size: {recommendation.size} mb</p>
 												)}
 												{recommendation.dimensions ? (
-													<span>
-														{recommendation.dimensions} X{" "}
-														{recommendation.dimensions2}pixel
-													</span>
+													<div>
+														<span>
+															{recommendation.dimensions} X{" "}
+															{recommendation.dimensions2}pixel
+														</span>
+													</div>
 												) : (
 													""
 												)}
 											</div>
-										</div>
-									))}
+										))}
+									</div>
 								</div>
 							</div>
 						</div>
