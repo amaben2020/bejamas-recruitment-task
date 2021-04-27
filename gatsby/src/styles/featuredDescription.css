@@ -1,0 +1,370 @@
+.featuredDesc {
+	display: flex;
+	border-bottom: 3px solid lightgray;
+}
+
+.featuredDesc1 {
+	width: 70vw;
+	height: 50vh;
+	margin: 30px;
+}
+
+.recommended-images {
+	flex-direction: row;
+}
+
+/* .recommended {
+	width: "200px";
+	flex-direction: row;
+} */
+
+/* .recommended + .gatsby-image-wrapper {
+	display: none;
+} */
+
+@media screen and (max-width: 1255px) {
+	.featuredDesc {
+		padding-bottom: 2em;
+		/* width: 20%; */
+	}
+}
+
+@media screen and (max-width: 1065px) {
+	.featuredDesc {
+		padding-bottom: 5em;
+		/* width: 20%; */
+	}
+}
+
+@media screen and (max-width: 1025px) {
+	.featuredDesc {
+		padding-bottom: 5em;
+		/* width: 20%; */
+	}
+}
+
+@media screen and (max-width: 1020px) {
+	.featuredDesc {
+		padding-bottom: 8em;
+		/* width: 20%; */
+	}
+}
+
+@media screen and (max-width: 919px) {
+	.featuredDesc {
+		padding-bottom: 7em;
+		/* width: 20%; */
+	}
+}
+
+@media screen and (max-width: 884px) {
+	.featuredDesc {
+		padding-bottom: 7em;
+		/* width: 20%; */
+	}
+}
+
+@media screen and (max-width: 920px) {
+	.featuredDesc {
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 4em;
+		padding-left: 3em;
+		width: 70px;
+		/* width: 20%; */
+	}
+	.recommended {
+		padding-left: 5em;
+		padding-top: 1em;
+	}
+}
+
+@media screen and (max-width: 811px) {
+	.featuredDesc {
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 4em;
+		padding-left: 3em;
+		width: 70px;
+		/* width: 20%; */
+	}
+	.recommended {
+		padding-left: 5em;
+		padding-top: 1em;
+	}
+}
+
+@media screen and (max-width: 706px) {
+	.featuredDesc {
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 6em;
+		padding-left: 3em;
+		width: 70px;
+		/* width: 20%; */
+	}
+	.recommended {
+		padding-left: 5em;
+		padding-top: 1em;
+	}
+}
+
+@media screen and (max-width: 686px) {
+	.featuredDesc {
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 10em;
+		padding-left: 3em;
+		width: 70px;
+		/* width: 20%; */
+	}
+	.recommended {
+		padding-left: 5em;
+		padding-top: 5em;
+	}
+}
+
+@media screen and (max-width: 604px) {
+	.featuredDesc {
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 10em;
+		padding-left: 3em;
+		width: 70px;
+		/* width: 20%; */
+	}
+	.recommended {
+		padding-left: 5em;
+		padding-top: 8em;
+	}
+}
+
+@media screen and (max-width: 574px) {
+	.featuredDesc {
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 10em;
+		padding-left: 3em;
+		width: 70px;
+		/* width: 20%; */
+	}
+	.recommended {
+		padding-left: 5em;
+		padding-top: 10em;
+	}
+}
+
+@media screen and (max-width: 492px) {
+	.featuredDesc {
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 10em;
+		padding-left: 2em;
+		width: 70px;
+		/* width: 20%; */
+	}
+	.recommended {
+		padding-left: 3em;
+		padding-top: 10em;
+	}
+}
+
+@media screen and (max-width: 487px) {
+	.featuredDesc {
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 20em;
+		padding-left: 2em;
+		width: 70px;
+		/* width: 20%; */
+	}
+	.recommended {
+		padding-left: 3em;
+		padding-top: 15em;
+	}
+}
+
+@media screen and (max-width: 462px) {
+	.featuredDesc {
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 16em;
+		padding-left: 2em;
+		width: 70px;
+		/* width: 20%; */
+	}
+	.recommended {
+		padding-left: 3em;
+		padding-top: 13em;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.featuredDesc {
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 16em;
+		padding-left: 2em;
+		width: 70px;
+		/* width: 20%; */
+	}
+	.recommended {
+		padding-left: 3em;
+		padding-top: 13em;
+	}
+}
+@media screen and (max-width: 411px) {
+	.featuredDesc {
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 18em;
+		padding-left: 1em;
+		width: 70px;
+		/* width: 20%; */
+	}
+	.recommended {
+		padding-left: 4em;
+		padding-top: 19em;
+	}
+	.photography-section {
+		padding-left: 9vw;
+	}
+	.sort-by {
+		display: none;
+	}
+	.filter-component {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 414px) {
+	.featuredDesc {
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 18em;
+		padding-left: 1em;
+		width: 70px;
+		/* width: 20%; */
+	}
+	.recommended {
+		padding-left: 4em;
+		padding-top: 19em;
+	}
+	.photography-section {
+		padding-left: 9vw;
+	}
+	.sort-by {
+		display: none;
+	}
+	.filter-component {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.featuredDesc {
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 16em;
+		padding-left: 1em;
+		width: 70px;
+		/* width: 20%; */
+	}
+	.recommended {
+		padding-left: 4.6em;
+		padding-top: 23em;
+	}
+	.filter-component {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 369px) {
+	.featuredDesc {
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 16em;
+		padding-left: 1em;
+		width: 70px;
+		/* width: 20%; */
+	}
+	.recommended {
+		padding-left: 2em;
+		padding-top: 26em;
+	}
+	.filter-component {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.featuredDesc {
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 20em;
+		padding-left: 1em;
+		width: 70px;
+		/* width: 20%; */
+	}
+	.recommended {
+		padding-left: 4em;
+		padding-top: 25em;
+	}
+	.filter-component {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 337px) {
+	.featuredDesc {
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 20em;
+		padding-left: 1em;
+		width: 70px;
+		/* width: 20%; */
+	}
+	.recommended {
+		padding-left: 2.2em;
+		padding-top: 25em;
+	}
+	.filter-component {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.featuredDesc {
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 5em;
+		padding-left: 1.8em;
+		width: 70px;
+		/* width: 20%; */
+	}
+	.recommended {
+		padding-left: 2.4em;
+		padding-top: 38em;
+	}
+	.photography-section {
+		padding-left: 1.1em;
+	}
+	.filter-component {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 317px) {
+	.featuredDesc {
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 28em;
+		padding-left: 1em;
+		width: 70px;
+		/* width: 20%; */
+	}
+	.recommended {
+		padding-left: 2.2em;
+		padding-top: 33em;
+	}
+}

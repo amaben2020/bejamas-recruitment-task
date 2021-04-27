@@ -1,0 +1,51 @@
+.element {
+	background-color: white;
+	padding: 20px;
+	color: #000;
+	position: absolute;
+	margin-top: 10px;
+	animation: push ease 5s alternate infinite;
+	animation-delay: 1.5s;
+	bottom: 133.88px;
+	width: 180px;
+}
+
+@media screen and (max-width: 449px) {
+	.element {
+		bottom: 135.88px;
+	}
+}
+
+/* @media screen and (max-width: 768px) {
+	.element {
+		bottom: 300.88px;
+	}
+} */
+
+@media screen and (max-width: 348px) {
+	.element {
+		width: 120px;
+	}
+}
+
+@media screen and (max-width: 248px) {
+	.element {
+		width: 80px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.element {
+		width: 90px;
+		bottom: 80.88px;
+	}
+}
+
+@media screen and (max-width: 411px) {
+	.element {
+		width: 120px;
+		bottom: 170.88px;
+	}
+}
+
+/* 1024 , 1024 , 375, 320, 411, 360*/
